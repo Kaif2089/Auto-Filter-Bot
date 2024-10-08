@@ -76,8 +76,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Rkbotzsupport')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Rkbotz')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/updates_rrr')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/mini_netflix_backup')
 FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/mini_netflix_official')
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/howtodowywgh/3")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/howtodowywgh/3")
@@ -114,7 +114,7 @@ SHORTLINK = is_enabled('SHORTLINK', False)
 
 
 PAYMENT_QR = environ.get('PAYMENT_QR', 'http://graph.org/file/cacbbea472e5a48ce0d64.jpg') #telegraph link of your QR code 
-UPI_ID = environ.get('UPI_ID', 'Rishikesh-sharma09@axl') # Add your upi id here
+UPI_ID = environ.get('UPI_ID', '9935790411@fam') # Add your upi id here
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', True) #true if you want stream feature active in your bot
 BIN_CHANNEL = environ.get("BIN_CHANNEL", "") #if is_stream = true then add a channel id ex: -10026393639
